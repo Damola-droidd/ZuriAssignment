@@ -5,8 +5,7 @@ const fetch = require('node-fetch');
 
 
 
-//create server
-
+//create server &&   // fetch data from jSON placeholder
 const server = http.createServer (function(req,res){
     fetch('http://jsonplaceholder.typicode.com/posts', {
         body: JSON.stringify(),
